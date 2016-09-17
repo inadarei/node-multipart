@@ -1,0 +1,13 @@
+--some boundary string
+Content-Type: application/hal+json; charset=utf-8
+
+{
+    "_links": {
+        "self": { "href": "/orders" },
+        "edit-form": { "href": "/create" }
+    },
+    "currentlyProcessing": 14,
+    "shippedToday": 20
+}
+
+--some boundary string--             
