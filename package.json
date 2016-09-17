@@ -1,5 +1,5 @@
 {
-  "name": "multipart",
+  "name": "multipart-parse",
   "version": "0.1.0",
   "description": "Parses multipart/mixed mime type",
   "main": "index.js",
