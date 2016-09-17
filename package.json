@@ -1,29 +1,29 @@
 {
-  "name": "multipart-parse",
-  "version": "0.1.0",
-  "description": "Parses multipart/mixed mime type",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha --bail test/",
-    "pretest": "jshint index.js test",
-    "prepublish": "npm prune",
-    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/",
-    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require --reporter spec --check-leaks test/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/inadarei/node-multipart.git"
-  },
-  "author": "Irakli Nadareishvili",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/inadarei/node-multipart/issues"
-  },
-  "homepage": "https://github.com/inadarei/node-multipart#readme",
-  "devDependencies": {
-    "fs": "0.0.1-security",
-    "istanbul": "^0.4.5",
-    "mocha": "^3.0.2",
-    "should": "^11.1.0"
-  }
+    "name": "multipart-parse",
+    "version": "0.1.0",
+    "description": "Parses multipart/mixed mime type",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --bail test/",
+        "pretest": "jshint index.js test",
+        "prepublish": "npm prune",
+        "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/",
+        "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require --reporter spec --check-leaks test/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/inadarei/node-multipart.git"
+    },
+    "author": "Irakli Nadareishvili",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/inadarei/node-multipart/issues"
+    },
+    "homepage": "https://github.com/inadarei/node-multipart#readme",
+    "devDependencies": {
+        "fs": "0.0.1-security",
+        "istanbul": "^0.4.5",
+        "mocha": "^3.0.2",
+        "should": "^11.1.0"
+    }
 }

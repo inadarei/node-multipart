@@ -10,12 +10,14 @@ describe('multi_parser', function() {
 
         let parsed = [];
         parsed = mp.parse(singlePart, boundary);
+        let json = JSON.parse(parsed);
+
     });
 
 
-    it('should parse single part properly', function() {
+    it.only('should parse multiple parts properly', function() {
         let multiPartSimple = fh.loadFixture("multi-part.txt");
-        let boundary = "some boundary. string";
+        let boundary = "simple boundary";
 
         let parsed = [];
         parsed = mp.parse(multiPartSimple, boundary);

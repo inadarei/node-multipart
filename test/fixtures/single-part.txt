@@ -10,4 +10,5 @@ Content-Type: application/hal+json; charset=utf-8
     "shippedToday": 20
 }
 
---some boundary string--             
+--some boundary string--
+This is the epilogue.  It is also to be ignored.
